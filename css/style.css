@@ -147,9 +147,15 @@ padding: 30px 0 0 0;
 .btn-outline-dark:hover{
   background-color: #F1583A;
 }
-.a_forgotpass{
+.a_forgotpass,.a_createAccount{
 position: relative;
 top: 10px;
+}
+.or{
+  position: relative;
+  top: 10px;
+  padding: 1px;
+  font-size:1.5rem;
 }
 .dropdown_1{
   float: right;
