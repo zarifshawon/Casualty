@@ -1,0 +1,164 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+
+
+}
+a:hover, .user_title{
+  color: #F1583A;
+  text-decoration: none;
+}
+/* label{
+
+} */
+
+
+/* header section */
+#navigation {
+  background-color: #123356;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+}
+
+.title_name {
+  padding-top: 20px;
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  cursor: pointer;
+
+}
+.logo{
+  float: left;
+  padding: 20px 0 0 20px;
+  background-color: #123356;
+}
+/* body section or dashboard */
+#dashboard {
+  background-color: #2D5173;
+  height: 780px;
+}
+.welcome_text{
+  color: #EAF1F4;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 110px 0 0 100px;
+}
+.welcome_header{
+  color: #F1583A;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bolder;
+  font-size: 7rem;
+  padding: 10px 0 0 95px;
+}
+.welcome_note{
+  color: #EAF1F4;
+  font-family: 'Montserrat',sans-serif;
+  font-weight:normal;
+  font-size: 2rem;
+  padding: 20px 0 0 110px;
+}
+
+.button{
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 50px 0 0 200px;
+  border:none;
+  background-color:#2D5173;
+  width: 250px;
+  height: 60px;
+
+}
+.btn-primary{
+  color: #fff;
+  background-color: #eaf1f4;
+  border-color: #eaf1f4;
+  border-radius: 20px;
+}
+.btn-primary:hover{
+    background-color:#F1583A;
+}
+.rect_1{
+  position: absolute;
+  width:90%;
+  left: 300px;
+  top: -100px;
+
+}
+/* user select svg for selecting user type */
+.user_svg{
+  position: absolute;
+  right: 60px;
+  top: 5px;
+  border-radius: 5px;
+  /* padding:3px; */
+
+  height: 25px;
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}
+.dash_signinUser{
+  text-align: center;
+  padding-top: 100px;
+}
+.header_signin{
+  color:  #eaf1f4;
+}
+.innerform_item{
+padding: 30px 0 0 0;
+}
+.label_tagfield{
+  margin: 25px;
+  margin-left: 0;
+  border-radius: 6px;
+  padding: 5px;
+}
+.email_svg{
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+.pass_svg{
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+
+.btn-outline-dark{
+  width: 200px;
+  height: 50px;
+  background-color:#eaf1f4;
+  border-radius: 20px;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.5rem;
+
+}
+.btn-outline-dark:hover{
+  background-color: #F1583A;
+}
+.a_forgotpass{
+position: relative;
+top: 10px;
+}
+.dropdown_1{
+  float: right;
+  /* top: 5px; */
+  height:33px;
+  background-color:#123356;
+}
+
+#footer {
+  background-color: #F1583A;
+  height: 25px;
+}
