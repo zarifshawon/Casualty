@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Casualty</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- for style of the web page -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap js part -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <section id="navigation">
+    <div class="row">
+      <div class="col col-4 left_side">
+        <img src="image\logo.png" class="logo" alt="Brand Logo">
+      </div>
+      <div class="col col-4 middle_side">
+        <h1 class="title_name">
+          <a href="index.html" title="Go to Casualty welcome page" class="title_ref">
+            Casualty
+          </a>
+        </h1>
+      </div>
+      <div class="col col-4 right_side">
+        <div class="select_user">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="32" viewBox="0 0 37 32" class="user_svg">
+            <defs>
+              <clipPath id="clip-path">
+                <rect width="37" height="32" fill="none" />
+              </clipPath>
+            </defs>
+            <g id="User" clip-path="url(#clip-path)">
+              <path id="Union_1" data-name="Union 1" d="M0,32V28c0-4.4,8.325-8,18.5-8S37,23.6,37,28v4ZM9.249,8c0-4.419,4.142-8,9.251-8s9.249,3.582,9.249,8-4.142,8-9.249,8S9.249,12.418,9.249,8Z" fill="#fff" />
+            </g>
+          </svg>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown_1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="signupAdmin.html">Admin</a>
+              <a class="dropdown-item" href="#">User</a>
+              <a class="dropdown-item" href="#">Doctor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main body of the page -->
+  <section id="dashboard">
+    <form action="action_page.php" method="post">
+
+  <div class="container">
+    <!-- <div style="label_tag:  pre"> -->
+    <label for="uname" class="container_label">Name</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="address" class="container_label">Address</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="email" class="container_label">Email</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="phone" class="container_label">Phone</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="NID" class="container_label">NID</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="age" class="container_label">Age</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="bloodgroup" class="container_label">Bloodgroup</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="Gender" class="container_label">Gender</label>
+    <input type="text"required class="container_input"><br>
+
+    <label for="psw" class="container_label"><b>Password</b></label>
+    <input type="password"required class="container_input"><br>
+
+    <button type="submit">CreateAccount</button>
+    <label>
+</div>
+    </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <body>
+  </div>
+</form>
+  </section>
+  <!-- footer -->
+  <section id="footer">
+
+  </section>
+  <script src="C:\Users\Windows\Desktop\Casualty\javascript\index.js" charset="utf-8"></script>
+</body>
+
+</html>
