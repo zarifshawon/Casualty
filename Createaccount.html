@@ -87,7 +87,13 @@
         <input type="text" required class="container_input"><br>
 
         <label for="Gender" class="container_label">Gender</label>
-        <input type="text" required class="container_input"><br>
+        <select name="gender" id="Gender" class="container_input">
+          <option value="Select a gender">Select a gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <br><br>
 
         <label for="psw" class="container_label">Password</label>
         <input type="password" required class="container_input"><br>
@@ -95,7 +101,7 @@
         <label for="psw" class="container_label">Confirm Password</label>
         <input type="password" required class="container_input"><br>
 
-        <button type="button" class="btn btn-outline-dark btn_create">Create Account</button>
+        <button type="button" class="btn btn-outline-dark btn_create" onclick="location.href = '\signupUser.html';">Create Account</button>
         <label>
       </div>
     </form>
