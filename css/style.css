@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  text-align: center;
 
 }
 a{
@@ -165,22 +164,8 @@ top: 10px;
   height:33px;
   background-color:#123356;
 }
-<<<<<<< HEAD
 .dropdown-menu{
   background-color: #123356;
-=======
-/* Create account stylesheet */
-.container_label{
-  color: #FFFFFF;
-  padding: 5px;
-  font-size: 1.3rem;
-
-
-}
-.container_input{
-  border-radius:20px;
-  margin-top: 10px;
->>>>>>> 78d43a45feb2f9dda8fdfc44ea68246561085f0d
 }
 
 
