@@ -164,6 +164,16 @@ top: 10px;
   height:33px;
   background-color:#123356;
 }
+.container_label{
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+.container_input{
+  border-radius:20px;
+  margin-top: 10px;
+}
+
 
 
 
