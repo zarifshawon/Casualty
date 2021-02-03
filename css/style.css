@@ -40,7 +40,8 @@ a:hover, .user_title{
 .logo{
   float: left;
   padding: 20px 0 0 20px;
-  background-color: #123356;
+  width: 34%;
+  /* background-color: #123356; */
 }
 /* body section or dashboard */
 #dashboard {
@@ -176,6 +177,7 @@ top: 10px;
   border-radius:20px;
   margin-top: 10px;
 }
+
 
 #footer {
   background-color: #F1583A;
