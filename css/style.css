@@ -29,7 +29,7 @@ a:hover, .user_title{
 
 .title_name {
   padding-top: 20px;
-  color: #FFFFFF;
+  color:#F1583A;
   font-size: 5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -38,6 +38,9 @@ a:hover, .user_title{
   position: relative;
   left: 10px;
 
+}
+.title_ref{
+  color:#F1583A; 
 }
 .logo{
   float: left;
