@@ -118,6 +118,8 @@ a:hover, .user_title{
 }
 .header_signin{
   color:  #eaf1f4;
+  font-size: 1.5rem;
+  font-family: sans-serif;
 }
 .innerform_item{
 padding: 30px 0 0 0;
