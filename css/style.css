@@ -2,23 +2,21 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   /* text-align: center; */
-
 }
-a{
+
+a {
   color: #FFFFFF;
   text-decoration: none;
-
-
 }
-a:hover, .user_title{
+
+a:hover, .user_title {
   color: #F1583A;
   text-decoration: none;
 }
+
 /* label{
 
 } */
-
-
 /* header section */
 #navigation {
   background-color: #123356;
@@ -29,7 +27,7 @@ a:hover, .user_title{
 
 .title_name {
   padding-top: 20px;
-  color:#F1583A;
+  color: #F1583A;
   font-size: 5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -37,208 +35,252 @@ a:hover, .user_title{
   cursor: pointer;
   position: relative;
   left: 5px;
+}
 
+.title_ref {
+  color: #F1583A;
 }
-.title_ref{
-  color:#F1583A;
-}
-.right_side{
+
+.right_side {
   position: absolute;
   right: 10px;
 }
-.logo{
+
+.logo {
   float: left;
   padding: 20px 0 0 20px;
   width: 34%;
   /* background-color: #123356; */
 }
+
 /* body section or dashboard */
 #dashboard {
   background-color: #2D5173;
   height: 780px;
 }
-.welcome_text{
+
+.welcome_text {
   color: #EAF1F4;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 4rem;
   padding: 110px 0 0 100px;
 }
-.welcome_header{
+
+.welcome_header {
   color: #F1583A;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   font-size: 7rem;
   padding: 10px 0 0 95px;
 }
-.welcome_note{
+
+.welcome_note {
   color: #EAF1F4;
-  font-family: 'Montserrat',sans-serif;
-  font-weight:normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
   font-size: 2rem;
   padding: 20px 0 0 110px;
 }
 
-.button{
+.button {
   transition: all 0.5s;
   cursor: pointer;
   margin: 50px 0 0 200px;
-  border:none;
-  background-color:#2D5173;
+  border: none;
+  background-color: #2D5173;
   width: 250px;
   height: 60px;
-
 }
-.btn-primary{
+
+.btn-primary {
   color: #fff;
   background-color: #eaf1f4;
   border-color: #eaf1f4;
   border-radius: 20px;
 }
-.btn-primary:hover{
-    background-color:#F1583A;
+
+.btn-primary:hover {
+  background-color: #F1583A;
 }
-.rect_1{
+
+.rect_1 {
   position: absolute;
-  width:90%;
+  width: 90%;
   left: 300px;
   top: -100px;
-
 }
+
 /* user select svg for selecting user type */
-.user_svg{
+.user_svg {
   position: absolute;
   right: 60px;
   top: 5px;
   border-radius: 5px;
   /* padding:3px; */
-
   height: 25px;
   cursor: pointer;
 }
-.clear{
+
+.clear {
   clear: both;
 }
-.dash_signinUser{
+
+.dash_signinUser {
   text-align: center;
   padding-top: 100px;
 }
-.header_signin{
-  color:  #eaf1f4;
+
+.header_signin {
+  color: #eaf1f4;
   font-size: 1.5rem;
   font-family: sans-serif;
 }
-.innerform_item{
-padding: 30px 0 0 0;
+
+.innerform_item {
+  padding: 30px 0 0 0;
 }
-.label_tagfield{
+
+.label_tagfield {
   margin: 25px;
   margin-left: 0;
   border-radius: 6px;
   padding: 5px;
 }
-.email_svg{
-  position: relative;
-  top: 7px;
-  right: 5px;
-}
-.pass_svg{
+
+.email_svg {
   position: relative;
   top: 7px;
   right: 5px;
 }
 
-.btn-outline-dark{
+.pass_svg {
+  position: relative;
+  top: 7px;
+  right: 5px;
+}
+
+.btn-outline-dark {
   width: 210px;
   height: 50px;
-  background-color:#eaf1f4;
+  background-color: #eaf1f4;
   border-radius: 20px;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
-
 }
-.btn-outline-dark:hover{
+
+.btn-outline-dark:hover {
   background-color: #F1583A;
 }
-.a_forgotpass,.a_createAccount{
-position: relative;
-top: 10px;
+
+.a_forgotpass, .a_createAccount {
+  position: relative;
+  top: 10px;
 }
-.or{
+
+.or {
   position: relative;
   top: 10px;
   padding: 1px;
-  font-size:1rem;
+  font-size: 1rem;
 }
-.dropdown_1{
+
+.dropdown_1 {
   float: right;
   /* top: 5px; */
-  height:33px;
-  background-color:#123356;
+  height: 33px;
+  background-color: #123356;
 }
-.container_label{
+
+.container_label {
   color: #FFFFFF;
   width: 10%;
-
 }
-.container_input{
-  border-radius:20px;
+
+.container_input {
+  border-radius: 20px;
   width: 50%;
-  padding:7px;
+  padding: 7px;
   margin: 5px;
-
 }
-.container{
+
+.container {
   position: relative;
   left: 200px;
   top: 10px;
 }
-.container_input_doctor{
-  border-radius:20px;
-  width: 30%;
-  padding:7px;
-  margin: 10px;
 
+.container_input_doctor {
+  border-radius: 20px;
+  width: 30%;
+  padding: 7px;
+  margin: 10px;
 }
-.container_label_doctor{
+
+.container_label_doctor {
   color: #FFFFFF;
   width: 8%;
-
 }
-.container_doctor{
+
+.container_doctor {
   position: relative;
   left: 150px;
   top: 50px;
 }
-.btn_create{
+
+.btn_create {
   position: absolute;
   left: 300px;
   top: 600px;
   margin: 20px;
-  width:  220px;
+  width: 220px;
 }
-.doctor_btn{
+
+.doctor_btn {
   position: absolute;
   left: 650px;
-
-  margin: 200px 20px 20px 20px;;
-  width:  220px;
+  margin: 200px 20px 20px 20px;
+  width: 220px;
 }
-.terms_condition{
-  color:#FFFFFF;
+
+.terms_condition {
+  color: #FFFFFF;
   margin: 5px;
   position: absolute;
   top: 500px;
 }
-.terms_conditions{
-  color:#FFFFFF;
+
+.terms_conditions {
+  color: #FFFFFF;
   margin: 5px;
   position: absolute;
   top: 550px;
 }
 
-
-
+.otp_item {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  font-size: 25px;
+  position: relative;
+  left: 850px;
+  top: 200px;
+  border: 1px solid #000000;
+}
+.otp_item::-webkit-inner-spin-button,
+.otp_item::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp_paragraph{
+  margin: 0;
+  position: absolute;
+  left: 860px;
+  top: 300px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
 
 #footer {
   background-color: #F1583A;
