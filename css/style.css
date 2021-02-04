@@ -35,6 +35,8 @@ a:hover, .user_title{
   font-weight: bold;
   letter-spacing: .5rem;
   cursor: pointer;
+  position: relative;
+  left: 10px;
 
 }
 .logo{
