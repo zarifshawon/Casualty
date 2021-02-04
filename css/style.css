@@ -184,11 +184,41 @@ top: 10px;
   left: 200px;
   top: 10px;
 }
+.container_input_doctor{
+  border-radius:20px;
+  width: 30%;
+  padding:7px;
+  margin: 10px;
+
+}
+.container_label_doctor{
+  color: #FFFFFF;
+  width: 8%;
+
+}
+.container_doctor{
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
 .btn_create{
   position: absolute;
   left: 300px;
   margin: 20px;
   width:  220px;
+}
+.doctor_btn{
+  position: absolute;
+  left: 650px;
+
+  margin: 200px 20px 20px 20px;;
+  width:  220px;
+}
+.terms_condition{
+  color:#FFFFFF;
+  margin: 5px;
+  position: absolute;
+  top: 450px;
 }
 
 
