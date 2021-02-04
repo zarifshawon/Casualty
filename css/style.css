@@ -36,11 +36,15 @@ a:hover, .user_title{
   letter-spacing: .5rem;
   cursor: pointer;
   position: relative;
-  left: 10px;
+  left: 5px;
 
 }
 .title_ref{
-  color:#F1583A; 
+  color:#F1583A;
+}
+.right_side{
+  position: absolute;
+  right: 10px;
 }
 .logo{
   float: left;
