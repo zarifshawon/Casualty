@@ -300,6 +300,25 @@ a:hover, .user_title {
   font-size: 1rem;
   color: #FFFFFF;
 }
+.side_menu_outer{
+
+}
+.side_menu_inner{
+  list-style-type: none;
+  padding: 0;
+
+}
+.menuitem{
+  color: white;
+  background-color: #123356;
+  font-family:'Poppins', sans-serif;
+  padding: 2px;
+  margin: 0;
+  border-bottom:1px solid black;
+  width: 75%;
+  position: relative;
+  top: 15px;
+}
 
 #footer {
   background-color: #F1583A;
