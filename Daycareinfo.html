@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Casualty</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- for style of the web page -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap js part -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <section id="navigation">
+    <div class="row">
+      <div class="col col-4 left_side">
+        <img src="image\1x\brand.png" onerror="this.onerror=null; this.src='brand.png'" class="logo">
+      </div>
+      <div class="col col-4 middle_side">
+        <h1 class="title_name">
+          <a href="index.html" title="Go to Casualty welcome page" class="title_ref">
+            Casualty
+          </a>
+        </h1>
+      </div>
+      <div class="col col-4 right_side">
+        <div class="select_user">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="32" viewBox="0 0 37 32" class="user_svg">
+            <defs>
+              <clipPath id="clip-path">
+                <rect width="37" height="32" fill="none" />
+              </clipPath>
+            </defs>
+            <g id="User" clip-path="url(#clip-path)">
+              <path id="Union_1" data-name="Union 1" d="M0,32V28c0-4.4,8.325-8,18.5-8S37,23.6,37,28v4ZM9.249,8c0-4.419,4.142-8,9.251-8s9.249,3.582,9.249,8-4.142,8-9.249,8S9.249,12.418,9.249,8Z" fill="#fff" />
+            </g>
+          </svg>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown_1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="signupAdmin.html">Admin</a>
+              <a class="dropdown-item" href="signupUser.html">User</a>
+              <a class="dropdown-item" href="signupDoctor.html">Doctor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main body of the page -->
+  <section id="dashboard">
+
+    <form class="signup-form" action="/register" method="post">
+
+    <!-- form body -->
+    <div class="form-body">
+      <div class="horizontal-group">
+        <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input type="text" id="firstname" class="form-input"/>
+        </div>
+        <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input type="text" id="lastname" class="form-input" />
+        </div>
+    </div>
+    <div class="horizontal-group">
+      <div class="form-group left">
+          <label for="phone" class="label-title">Privacy Phone Number*</label>
+          <input type="text" id="firstname" class="form-input" />
+      </div>
+      <div class="form-group right">
+          <label for="email" class="label-title">Email</label>
+          <input type="text" id="email" class="form-input"/>
+      </div>
+  </div>
+  <div class="horizontal-group">
+    <div class="form-group left">
+        <label for="uid" class="label-title">UID*</label>
+        <input type="text" id="uid" class="form-input"/>
+    </div>
+    <div class="form-group right">
+        <label for="dob" class="label-title">Date of Birth*</label>
+        <input type="text" id="dob" class="form-input"/>
+  </div>
+    <div class="form-group">
+
+        <label class="label-title">Gender:</label>
+        <div class="input-group">
+            <label for="male">
+                <input type="radio" name="gender" value="male" id="male"> Male</label>
+            <label for="female">
+                <input type="radio" name="gender" value="female" id="female"> Female</label>
+        </div>
+</div>
+</div>
+<div class="horizontal-group">
+  <div class="form-group left">
+      <label for="searchdoctor" class="label-title">Search Doctor</label>
+      <input type="text" id="searchdoctor" class="form-input" />
+  </div>
+<div class="form-group right">
+      <label for="speciality" class="label-title">Speciality</label>
+      <input type="text" id="Speciality" class="form-input"/>
+  </div>
+</div>
+<div class="horizontal-group">
+  <div class="form-group">
+      <label for="problem" class="label-title">Problem Statement</label>
+      <input type="text" id="problem" class="form-input"/>
+  </div>
+
+</div>
+
+
+    <!-- form footer -->
+    <div class="form-footer">
+    </div>
+
+        </form>
+
+
+  </section>
+  <!-- footer -->
+  <section id="footer">
+
+  </section>
+  <script src="C:\Users\Windows\Desktop\Casualty\javascript\index.js" charset="utf-8"></script>
+</body>
+
+</html>
