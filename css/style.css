@@ -480,7 +480,37 @@ font-family: 'Ubuntu', sans-serif;
   float:right;
   width:49%;
 }
+.home_menu{
+  position: absolute;
 
+}
+.emergency{
+  position: absolute;
+  left: 200px;
+  top: 30px;
+  padding: 5%;
+  margin: 3%;
+}
+.daycare{
+  position: absolute;
+  left: 530px;
+  top: 30px;
+  padding: 5%;
+  margin: 3%;
+
+
+}
+
+.generalvisit{
+  position: absolute;
+  left: 850px;
+  top: 30px;
+  padding: 5%;
+  margin: 3%;
+}
+.buy_btn{
+  color:blue;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
