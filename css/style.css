@@ -381,10 +381,10 @@ a:hover, .user_title {
 }
 .pro_pic{
   border-radius: 100%;
-  margin: 0;
+  margin:0;
   position: absolute;
   top: 30px;
-  right:100px;
+  right:90px;
 }
 .dropbtn {
   background-color:#123356;
