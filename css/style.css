@@ -354,6 +354,11 @@ a:hover, .user_title {
 
 
 }
+.side_menu_outer{
+  top: 10px;
+  height: 48.2rem;
+  background-color: #123356;
+}
 .menuitem{
   color: white;
   background-color: #123356;
