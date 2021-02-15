@@ -192,7 +192,7 @@ a:hover, .user_title {
   background-color: #123356;
 }
 
-.container_label {
+.container_label{
   color: #FFFFFF;
   width: 10%;
 }
@@ -545,6 +545,17 @@ margin: 0 auto;
   position: absolute;
   left: 40%;
   top: 350px;
+}
+.find_btn{
+  position: absolute;
+  left: 41%;
+  top: 480px;
+}
+.find_input{
+  border: 2px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 16.8px;
 }
 #footer {
   background-color: #F1583A;
