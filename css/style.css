@@ -52,6 +52,13 @@ a:hover, .user_title {
   width: 34%;
   /* background-color: #123356; */
 }
+.logo_homepage{
+  float: left;
+  padding: 20px 0 0 20px;
+  position: absolute;
+  bottom: 20px;
+  width: 60%;
+}
 
 /* body section or dashboard */
 #dashboard {
