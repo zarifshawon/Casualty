@@ -203,12 +203,24 @@ a:hover, .user_title {
 }
 
 .dropdown_1 {
-  float: right;
-  /* top: 5px; */
-  height: 33px;
-  background-color: #123356;
-}
 
+  padding: 10% 50%;
+  margin: 5% 7%;
+  position:relative;
+  left: 100px;
+  top: 20px;
+  font-family:'Montserrat', sans-serif;
+  background-color:#FFFFFF;
+  color: black;
+}
+.dropdown_1:hover{
+  background-color: #F1583A;
+}
+.dropdown-item{
+  color: #F1583A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
 .container_label {
   color: #FFFFFF;
   width: 10%;
