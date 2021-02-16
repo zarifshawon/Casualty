@@ -391,9 +391,11 @@ a:hover, .user_title {
 }
 
 .side_menu_outer {
+  width: 100%;
   position: relative;
   top: 10px;
   height: 48.2rem;
+
   background-color: #123356;
 }
 
@@ -404,7 +406,7 @@ a:hover, .user_title {
   padding: 2px;
   margin: 0;
   border-bottom: 1px solid black;
-  width: 75%;
+  width: 94%;
 }
 .item1{
   position: absolute;
