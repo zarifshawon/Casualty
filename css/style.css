@@ -40,10 +40,13 @@ a:hover, .user_title {
 .title_ref {
   color: #F1583A;
 }
+.profile_name,.profile_content,.menuitem{
+  font-family: 'Montserrat', sans-serif;
+}
 
 .right_side {
-  position: absolute;
-  right: 50px;
+  position: relative;
+
 }
 
 .logo {
@@ -388,6 +391,7 @@ a:hover, .user_title {
 }
 
 .side_menu_outer {
+  position: relative;
   top: 10px;
   height: 48.2rem;
   background-color: #123356;
@@ -401,8 +405,22 @@ a:hover, .user_title {
   margin: 0;
   border-bottom: 1px solid black;
   width: 75%;
-  position: relative;
-  top: 15px;
+}
+.item1{
+  position: absolute;
+  top:50px;
+}
+.item2{
+  position: absolute;
+  top:100px;
+}
+.item3{
+  position: absolute;
+  top:150px;
+}
+.item4{
+  position: absolute;
+  top:200px;
 }
 
 @media (max-width:1200px) {
@@ -448,6 +466,7 @@ color: white;
   position: absolute;
   top: 30px;
   right: 40px;
+  z-index: 1;
 }
 
 .dropbtn {
