@@ -179,6 +179,15 @@ a:hover, .user_title {
 .btn-outline-dark:hover {
   background-color: #F1583A;
 }
+.btn_m {
+  width: 210px;
+  height: 50px;
+  align-items: center;
+  background-color: #eaf1f4;
+  border-radius: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+}
 
 .a_forgotpass, .a_createAccount {
   position: relative;
