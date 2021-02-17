@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Casualty</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- for style of the web page -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap js part -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <!-- flaticon link -->
+  <link rel="stylesheet" type="text/css" href="font\flaticon.css">
+  <link rel="stylesheet" type="text/css" href="font1\font\flaticon.css">
+  <!-- fontawosome -->
+  <script src="https://kit.fontawesome.com/7baea883dd.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+  <section id="navigation">
+    <div class="row">
+      <div class="col col-4 left_side">
+        <!-- <img src="logo.svg" alt="Brand logo"> -->
+        <!-- <img src="image\1x\brand.png" onerror="this.onerror=null; this.src='brand.png'" class="logo"> -->
+      </div>
+      <div class="col col-4 middle_side">
+        <h1 class="title_name">Casualty</h1>
+      </div>
+      <div class="col col-3 right_side">
+        <div class="profile_bar">
+          <a href="#" class="notification">
+            <span class="fa_profile">
+              <i class="far fa-bell "></i>
+              <span class="badge">3</span>
+            </span>
+          </a>
+
+          <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" alt="profile pic" class="pro_pic">
+          <div class="dropdown">
+            <button class="dropbtn profile_name">Zarif M.</button>
+            <div class="dropdown-content">
+              <a href="myProfile.html" class="profile_content">My Profile</a>
+              <!-- <a href="#">Settings</a>
+              <a href="#">Terms & Condition</a> -->
+              <a href="signupUser.html" class="profile_content">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- main body of the page -->
+  <section id="dashboard">
+    <div class="row">
+      <div class="col col-2 side_menu_outer">
+        <ul class="side_menu_inner">
+          <li class="menuitem item1"><span class="flaticon-homepage side_icon"></span> <a href="#">Home</a></li>
+          <li class="menuitem item2"><span class="flaticon-registration side_icon"></span><a href="#">Registration</a> </li>
+          <li class="menuitem item3"><span class="flaticon-email side_icon"> <a href="#">Inbox</a></li>
+          <li class="menuitem item4"><span class="flaticon-payment-method side_icon"> <a href="#">Payment</a></li>
+
+        </ul>
+        <img src="image\1x\brand.png" onerror="this.onerror=null; this.src='brand.png'" class="logo_homepage">
+      </div>
+      <div class="col col-11 home_menu">
+        <div class="container_prescription">
+          <div class="upper_right">
+            <label for="date" class="label-title">Date:</label>
+            <input type="datetime-local" id="date" class="prescription-input date_style" /><br>
+            <label for="tokenID" class="label-title">Token ID:</label>
+            <input type="text" id="tokenID" class="prescription-input" required />
+          </div>
+          <div class="form_middle">
+            <div class="userinfo_form">
+              <input type="text" id="firstname" class="user-input" placeholder="Name" required />
+              <input type="text" id="address" class="user-input" placeholder="Address" required />
+              <input type="tel" id="phone_number" class="user-input" placeholder="Phone Number" required />
+              <input type="text" id="UID" class="user-input" placeholder="UID" readonly />
+              <input type="text" id="age" class="user-input" placeholder="Age" required /><br>
+              <select name="Doctor List" id="doctor_list" class="user-input">
+                <option value="Select a gender">Select a Doctor</option>
+                <option value="Dr.X">Dr.X</option>
+                <option value="Dr.Y">Dr.Y</option>
+                <option value="Dr.Z">Dr.Z</option>
+              </select>
+              <select name="Department List" id="department_list" class="user-input">
+                <option value="Select a gender">Select a Department</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="ENT">ENT</option>
+                <option value="Other">Gynology</option>
+              </select>
+              <select name="Speciality" id="speciality" class="user-input">
+                <option value="Select a gender">Select a Speciality</option>
+                <option value="GP">General Practisonar</option>
+                <option value="Surgeon">Surgeon</option>
+                <option value="Other">Other</option>
+              </select>
+              <input type="text" id="refby" class="user-input" placeholder="Reffered By" required />
+              <input type="text" id="UID" class="user-input" placeholder="Payment" readonly />
+            </div>
+            <hr class="hr_line">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section id="footer">
+  </section>
+  <script src="C:\Users\Windows\Desktop\Casualty\javascript\index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

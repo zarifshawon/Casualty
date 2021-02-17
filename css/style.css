@@ -13,6 +13,10 @@ a:hover, .user_title {
   color: #F1583A;
   text-decoration: none;
 }
+option{
+  background-color: #123356;
+
+}
 
 /* label{
 
@@ -472,7 +476,7 @@ color: white;
   z-index: 1;
 }
 
-.dropbtn {
+.profile_name {
   background-color: #123356;
   color: white;
   width: 100px;
@@ -633,7 +637,60 @@ color: white;
   padding: 10px;
   margin-bottom: 16.8px;
 }
-
+/* E prescription Style */
+.upper_right{
+  position:absolute;
+  left:1125px;
+  top: 5px;
+  text-align: left;
+}
+.prescription-input{
+  font-size: 13px;
+  /* box-sizing: border-box; */
+  width: 50%;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FFFFFF;
+  margin-left: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+}
+.date_style{
+  position: relative;
+  left:30px;
+}
+.label-title{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family:'Montserrat', sans-serif;
+}
+.form_middle{
+  position: relative;
+  left: 250px;
+  top: 100px;
+}
+.user-input{
+  font-size: 13px;
+  /* box-sizing: border-box; */
+  width: 15%;
+  height: 34px;
+  padding: 0 20px;
+  color: #FFFFFF;
+  margin: 5px 15px;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+}
+.hr_line{
+  border: .5px solid black;
+  width:90%;
+  position: absolute;
+  left:1px;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
