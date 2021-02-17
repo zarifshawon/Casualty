@@ -691,6 +691,25 @@ color: white;
   position: absolute;
   left:1px;
 }
+.vr_line{
+  border: .5px solid black;
+  width:40%;
+  position: absolute;
+  left:1px;
+  top: 330px;
+  transform: rotate(90deg);
+}
+.rx_pres{
+  font-size: 2rem;
+  position: absolute;
+  left: 260px;
+  top: 120px;
+  width: 40px;
+  height: 40px;
+  padding: 0px 10px 5px 10px;
+  border-radius: 7px;
+  background-color:white;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
