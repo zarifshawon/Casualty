@@ -61,10 +61,10 @@ option{
 }
 .logo_homepage{
   float: left;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px;
   position: absolute;
   bottom: 20px;
-  width: 60%;
+  width: 85%;
 }
 
 /* body section or dashboard */
