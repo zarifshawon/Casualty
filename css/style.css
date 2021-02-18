@@ -855,6 +855,48 @@ color: white;
     background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
+.qhead{
+  text-align: center;
+  color: orange;
+  font-size: 25px;
+
+}
+table, td, th {
+  margin-top: 10px;
+  align-items: center;
+  border: 1px solid black ;
+}
+
+thead {
+  float: left;
+}
+
+
+thead th {
+  display: block;
+  background: yellow;
+}
+
+tbody {
+  float: right;
+}
+.queuetable{
+    margin-top: 100px;
+    border-collapse: collapse;
+    border: 1px solid #69899F;
+  }
+.queuetable th{
+    border: 1px solid #69899F;
+    color: #FFFFFF;
+    padding:10px;
+  }
+.queuetable td{
+    border: 1px solid #69899F;
+    color: #FFFFFF;
+    padding:15px;
+    width:180px;
+    height: 500px;
+  }
 
 #footer {
   background-color: #F1583A;
