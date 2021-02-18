@@ -716,6 +716,17 @@ color: white;
   border-radius: 7px;
   background-color:white;
 }
+.button_ep{
+  position: absolute;
+  right: 1%;
+  bottom:-50%;
+  margin: 10px 15px;
+  padding: 5px 10px;
+
+}
+.btn-next:hover{
+  background-color: #F1583A;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
