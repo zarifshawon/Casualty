@@ -750,6 +750,13 @@ color: white;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
 }
+.item1-name,.item-inner2{
+  font-size:.8rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin: 5px auto;
+
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
