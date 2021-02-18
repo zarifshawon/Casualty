@@ -727,6 +727,29 @@ color: white;
 .btn-next:hover{
   background-color: #F1583A;
 }
+/* Account settings */
+.container-main{
+  text-align: center;
+}
+.container_header{
+
+  margin:10px 0 0 200px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container_basicInfo{
+  border:1px #FFFFFF solid;
+  width: 90%;
+  position: absolute;
+  left: 20%;
+  text-align: left;
+
+}
+.head_basicInfo, .head_pg{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
