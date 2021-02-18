@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  overflow-x:hidden;
+  overflow-y: scroll;
   /* text-align: center; */
 }
 
@@ -763,11 +765,8 @@ color: white;
     --line-border-empty: #e0e0e0;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-body {
+/* body {
     background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -776,7 +775,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-}
+} */
 
 .container {
     text-align: center;
