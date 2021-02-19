@@ -906,6 +906,11 @@ tbody {
   text-align: center;
   margin:10px 0 0 100px;
 }
+.form-control{
+  background-color: transparent;
+  border: none;
+  color:#FFFFFF;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
