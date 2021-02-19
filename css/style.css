@@ -897,7 +897,15 @@ tbody {
     width:180px;
     height: 500px;
   }
-
+  /* Manage Account */
+  .choose_item{
+    text-align: center;
+    margin:10px 0 0 300px;
+  }
+.container_createAccount{
+  text-align: center;
+  margin:10px 0 0 100px;
+}
 #footer {
   background-color: #F1583A;
   height: 25px;
