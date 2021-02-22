@@ -861,25 +861,7 @@ color: white;
   font-size: 25px;
 
 }
-table, td, th {
-  margin-top: 10px;
-  align-items: center;
-  border: 1px solid black ;
-}
 
-thead {
-  float: left;
-}
-
-
-thead th {
-  display: block;
-  background: yellow;
-}
-
-tbody {
-  float: right;
-}
 .queuetable{
     margin-top: 100px;
     border-collapse: collapse;
