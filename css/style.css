@@ -938,6 +938,11 @@ option {
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
 }
+.btn-print{
+  position: absolute;
+  left: 95%;
+  top:500px;
+}
 
 #footer {
   background-color: #F1583A;
