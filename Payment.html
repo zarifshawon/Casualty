@@ -77,33 +77,41 @@
         <img src="image\1x\brand.png" onerror="this.onerror=null; this.src='brand.png'" class="logo_homepage">
       </div>
 
-      <p class="qhead">Daycare Patient's Queue</p>
-      <div>
-  <table class="queuetable">
-    <tr>
-        <th class="qth">SL No</th>
-        <th>Name</th>
-        <th>ID</th>
-        <th>Doctor's Name</th>
-        <th>Department</th>
-        <th>Speciality</th>
-        <th>Generate Prescription</th>
-    </tr>
-    <tr>
-        <td class="qtd"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+      <div class="checkout-panel">
+    <div class="panel-body">
+      <h2 class="title">Payment</h2>
 
-  </table>
-  <div class="form-footer">
-      <button type="button" class="btn_m">Back</button>
+
+      <div class="payment-method">
+        <label for="card" class="method card">
+          <div class="card-logos">
+            <img src="image/1x/card.jpg"/>
+          </div>
+          <div class="radio-input">
+            <input id="card" type="radio" name="payment">
+            Pay with credit card
+          </div>
+        </label>
+
+        <label for="paypal" class="method paypal">
+          <img src="image/1x/ppal.png"/>
+          <div class="radio-input">
+            <input id="paypal" type="radio" name="payment">
+            Pay with Paypal
+          </div>
+        </label>
+
+        <label for="bkash" class="method paypal">
+          <img src="image/1x/bkash.png"/>
+          <div class="radio-input">
+            <input id="paypal" type="radio" name="payment">
+            Pay with Bkash
+          </div>
+        </label>
+      </div>
+
+
   </div>
-    </div>
   </section>
 
   <!-- footer -->
