@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Casualty</title>
-  <link rel="shortcut icon" type="image/jpg" href="image\c.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="image\c.png" />
 
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -57,22 +57,23 @@
     <div class="otp_container_outer">
 
 
-    <div class="otp_container">
-      <p class="otp_paragraph">Enter your 4 digit code.</p>
-      <form>
-        <input class="otp_item" id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" />
-        <input class="otp_item" id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)" />
-        <input class="otp_item" id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)" />
-        <input class="otp_item" id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" />
-      </form>
+      <div class="otp_container">
+        <p class="otp_paragraph">Enter your 4 digit code.</p>
+        <form action="newpassword.html" method=" post">
+          <input class="otp_item" id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" required/>
+          <input class="otp_item" id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)" required/>
+          <input class="otp_item" id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)" required/>
+          <input class="otp_item" id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" required/>
+          <button type="submit" id="Otpbutton" class="btn btn-outline-dark  otp_btn">>></button>
+        </form>
+
+      </div>
+      <div>
+        <a href="#" class="otp_reset">Resend in 5 seconds</a>
+      </div>
+
 
     </div>
-    <div>
-      <a href="#" class="otp_reset">Resend in 5 seconds</a>
-    </div>
-
-    <button type="button" class="btn btn-outline-dark  otp_btn">>></button>
-</div>
   </section>
 
   <!-- footer -->
