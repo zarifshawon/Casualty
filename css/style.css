@@ -1019,5 +1019,28 @@ option {
   .btn-primary:hover {
     background-color: #F1583A;
   }
+  /* craete account */
+  .container {
+    text-align:center;
+    position: relative;
+    left:100px;
+    top: 10px;
+    margin: 0px;
+  }
+  .terms_conditions {
+    color: #FFFFFF;
+    text-align: left;
+    margin: 5px;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+  }
+  .btn_create {
+    position: absolute;
+    left: 450px;
+    top:650px;
+    margin: 20px;
+    width: 220px;
+  }
 
 }
