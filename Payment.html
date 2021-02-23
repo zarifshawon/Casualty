@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Casualty</title>
-<link rel="shortcut icon" type="image/jpg" href="image\c.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="image\c.png" />
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- for style of the web page -->
@@ -78,76 +78,75 @@
       </div>
 
       <div class="checkout-panel">
-    <div class="panel-body">
-      <h2 class="title">Payment</h2>
+        <div class="panel-body">
+          <h2 class="title">Payment</h2>
 
 
-      <div class="payment-method">
-        <label for="card" class="method card">
-          <div class="card-logos">
-            <img src="image/1x/card.jpg"/>
-          </div>
-          <div class="radio-input">
-            <input id="card" type="radio" name="payment">
-            Pay with credit card
-          </div>
-        </label>
+          <div class="payment-method">
+            <label for="card" class="method card">
+              <div class="card-logos">
+                <img class="payment-image" src="image/card.jpg" />
+              </div>
+              <div class="radio-input">
+                <input id="card" class="payment-radio" type="radio" name="payment">
+                Pay with credit card
+              </div>
+            </label>
 
-        <label for="paypal" class="method paypal">
-          <img src="image/1x/ppal.png"/>
-          <div class="radio-input">
-            <input id="paypal" type="radio" name="payment">
-            Pay with Paypal
-          </div>
-        </label>
+            <label for="paypal" class="method paypal">
+              <img class="payment-image" src="image/ppal.png" />
+              <div class="radio-input">
+                <input id="paypal" class="payment-radio" type="radio" name="payment">
+                Pay with Paypal
+              </div>
+            </label>
 
-        <label for="bkash" class="method paypal">
-          <img src="image/1x/bkash.png"/>
-          <div class="radio-input">
-            <input id="paypal" type="radio" name="payment">
-            Pay with Bkash
+            <label for="bkash" class="method paypal">
+              <img class="payment-image" src="image/bkash.png" />
+              <div class="radio-input">
+                <input id="paypal" class="payment-radio" type="radio" name="payment">
+                Pay with Bkash
+              </div>
+            </label>
           </div>
-        </label>
-      </div>
+          <form class="payment-form" action="index.html" method="post">
+            <div class="form-body">
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="fullname" class="label-title">Full name *</label>
+                  <input type="text" id="fullname" class="form-input" required />
+                </div>
+                <div class="form-group right">
+                  <label for="cardnumber" class="label-title">Card number</label>
+                  <input type="text" id="cardnumber" class="form-input" required/>
+                </div>
+              </div>
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="address" class="label-title">Address*</label>
+                  <input type="text" id="address" class="form-input" required/>
+                </div>
+                <div class="form-group right">
+                  <label for="cvv" class="label-title">CVV</label>
+                  <input type="text" id="cvv" class="form-input"required />
+                </div>
+              </div>
+              <div class="horizontal-group">
+                <div class="form-group left">
+                  <label for="uid" class="label-title">UID*</label>
+                  <input type="text" id="uid" class="form-input" required/>
+                </div>
+                <div class="form-group right">
+                  <label for="expiry" class="label-title">Expiry Date*</label>
+                  <input type="text" id="expiry" class="form-input" required/>
+                </div>
 
-      <div class="form-body">
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="fullname" class="label-title">Full name *</label>
-            <input type="text" id="fullname" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="cardnumber" class="label-title">Card number</label>
-            <input type="text" id="cardnumber" class="form-input" />
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="address" class="label-title">Address*</label>
-            <input type="text" id="address" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="cvv" class="label-title">CVV</label>
-            <input type="text" id="cvv" class="form-input" />
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="uid" class="label-title">UID*</label>
-            <input type="text" id="uid" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="expiry" class="label-title">Expiry Date*</label>
-            <input type="text" id="expiry" class="form-input" />
-          </div>
-
-          <div class="form-footer">
-              <button type="button" class="btn_m">Next</button>
-          </div>
-
-
-
-  </div>
+                <div class="form-footer">
+                  <button type="submit" class="btn btn-outline-dark btn_m">Next</button>
+                </div>
+              </div>
+            </div>
+          </form>
   </section>
 
   <!-- footer -->
