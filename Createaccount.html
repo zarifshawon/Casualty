@@ -89,10 +89,10 @@
         <br><br>
 
         <label for="psw" class="container_label">Password</label>
-        <input type="password" required class="container_input"><br>
+        <input id="password-verify"type="password" required class="container_input"><br>
 
         <label for="psw" class="container_label">Confirm Password</label>
-        <input type="password" required class="container_input"><br>
+        <input id="password-verify2" type="password" required class="container_input"><br>
 
         <div class="terms_conditions">
           <div class="form-check">
@@ -109,7 +109,7 @@
           </div>
         </div>
 
-        <button type="submit" class="btn btn-outline-dark btn_create" onclick="location.href = '\signupUser.html';">Create Account</button>
+        <button type="submit" class="btn btn-outline-dark btn_create" onclick="location.href = '\signupUser.html'; return passwordValidation();">Create Account</button>
         <label>
       </div>
     </form>
@@ -119,7 +119,8 @@
   <section id="footer">
 
   </section>
-  <script src="C:\Users\Windows\Desktop\Casualty\javascript\index.js" charset="utf-8"></script>
+  <script src="javascript\index.js" charset="utf-8"></script>
+  <script src="javascript\passwordValidation.js" charset="utf-8"></script>
 </body>
 
 </html>
