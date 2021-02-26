@@ -315,7 +315,6 @@ option {
   margin: 10px;
   font-size: 25px;
   position: relative;
-  left: 850px;
   top: 200px;
   border: 1px solid #000000;
 }
@@ -744,9 +743,7 @@ option {
     overflow: hidden;
     margin: 0;
 } */
-.container {
-  text-align: center;
-}
+
 
 .progress-container {
   display: flex;
@@ -895,7 +892,7 @@ option {
   height: 25px;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px)  and (max-width: 1920px) {
   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
   :root {
@@ -908,6 +905,7 @@ option {
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
+    text-align: center;
   }
 
   a {
@@ -980,13 +978,12 @@ option {
   .container {
 
     position: absolute;
-    left:3%;
+    left:25%;
     top: 200px;
     margin: 0px;
+    text-align: left;
   }
-  .form-createacc{
-    text-align: center;
-  }
+
 
   .terms_conditions {
     color: #FFFFFF;
@@ -994,12 +991,12 @@ option {
     margin: 5px;
     position: absolute;
     top: 600px;
-    left: 250px;
+
   }
 
   .btn_create {
     position: absolute;
-    left: 40%;
+    left: 25%;
     top: 650px;
     margin: 20px;
     width: 220px;
@@ -1019,10 +1016,14 @@ option {
     margin: 10px;
     font-size: 25px;
     position: relative;
-    left: 40%;
     top: 200px;
     border: 1px solid #000000;
   }
+  .otp-input-div{
+    position: absolute;
+    left: 40%;
+  }
+
 
   .otp_item::-webkit-inner-spin-button,
   .otp_item::-webkit-outer-spin-button {

@@ -59,12 +59,15 @@
 
       <div class="otp_container">
         <p class="otp_paragraph">Enter your 4 digit code.</p>
-        <form action="newpassword.html" method=" post">
-          <input class="otp_item" id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" required/>
-          <input class="otp_item" id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)" required/>
-          <input class="otp_item" id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)" required/>
-          <input class="otp_item" id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" required/>
-          <button type="submit" id="Otpbutton" class="btn btn-outline-dark  otp_btn">>></button>
+        <form action="newpassword.html" method=" post" class="otp-form">
+          <div class="otp-input-div">
+            <input class="otp_item" id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)" required/>
+            <input class="otp_item" id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)" required/>
+            <input class="otp_item" id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)" required/>
+            <input class="otp_item" id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)" required/>
+          </div>
+
+          <button type="submit"   id="Otpbutton" class="btn btn-outline-dark  otp_btn">>></button>
         </form>
 
       </div>
@@ -72,10 +75,8 @@
         <a href="#" class="otp_reset">Resend in 5 seconds</a>
       </div>
 
-
-    </div>
-  </section>
-
+</div>
+</section>
   <!-- footer -->
   <section id="footer">
 
