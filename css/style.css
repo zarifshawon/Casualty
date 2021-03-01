@@ -242,10 +242,10 @@ option {
 }
 
 .container_input {
-  border-radius: 20px;
-  width: 50%;
-  padding: 7px;
-  margin: 5px;
+  border-radius: 10px;
+  width: 60%;
+  padding: 4px 10px;
+  margin: 10px;
 }
 
 .container {
@@ -263,7 +263,7 @@ option {
 
 .container_label_doctor {
   color: #FFFFFF;
-  width: 8%;
+  width: 10%;
 }
 
 .container_doctor {
@@ -283,6 +283,7 @@ option {
 .doctor_btn {
   position: absolute;
   left: 650px;
+  top: 650px;
   margin: 200px 20px 20px 20px;
   width: 220px;
 }
@@ -301,14 +302,6 @@ option {
   position: absolute;
   top: 500px;
 }
-
-.terms_conditions {
-  color: #FFFFFF;
-  margin: 5px;
-  position: absolute;
-  top: 550px;
-}
-
 .otp_item {
   height: 45px;
   width: 45px;
@@ -345,7 +338,6 @@ option {
   font-size: 1rem;
   color: #FFFFFF;
 }
-
 
 .side_menu_inner {
   list-style-type: none;
@@ -395,8 +387,6 @@ option {
   position: absolute;
   top: 200px;
 }
-
-
 
 .side_icon {
   width: 30px;
@@ -743,8 +733,6 @@ option {
     overflow: hidden;
     margin: 0;
 } */
-
-
 .progress-container {
   display: flex;
   justify-content: space-between;
@@ -892,7 +880,8 @@ option {
   height: 25px;
 }
 
-@media only screen and (min-width: 992px)  and (max-width: 1920px) {
+/* media query section for screen size 992px and 1920 px to making project responsive */
+@media only screen and (min-width: 992px) and (max-width: 1920px) {
   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
   :root {
@@ -918,6 +907,10 @@ option {
     text-decoration: none;
   }
 
+  input {
+    font-family: 'Montserrat', sans-serif;
+  }
+
   option {
     background-color: #123356;
   }
@@ -938,7 +931,7 @@ option {
   .logo {
     float: left;
     padding: 20px 0 0 20px;
-    width: 34%;
+    width: 25%;
   }
 
   .title_name {
@@ -950,7 +943,7 @@ option {
     letter-spacing: .5rem;
     cursor: pointer;
     position: absolute;
-  text-align: center;
+    text-align: center;
   }
 
   .button {
@@ -976,14 +969,20 @@ option {
 
   /* craete account */
   .container {
-
     position: absolute;
-    left:25%;
+    left: 20%;
     top: 200px;
-    margin: 0px;
+    margin: 0px auto;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
   }
 
+  .container_input {
+    border-radius: 10px;
+    width: 60%;
+    padding: 4px 10px;
+    margin: 10px;
+  }
 
   .terms_conditions {
     color: #FFFFFF;
@@ -991,7 +990,6 @@ option {
     margin: 5px;
     position: absolute;
     top: 600px;
-
   }
 
   .btn_create {
@@ -1001,6 +999,46 @@ option {
     margin: 20px;
     width: 220px;
   }
+
+  /* Create Admin */
+  .container_doctor {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 8%;
+    top: 200px;
+    margin: 3% auto;
+    text-align: left;
+  }
+
+  .container_label_doctor {
+    color: #FFFFFF;
+    width: 10%;
+    padding: 19px 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container_input_doctor {
+    border-radius: 10px;
+    width: 20%;
+  }
+  .Admin-terms_condition{
+
+    color: #FFFFFF;
+    text-align: left;
+    margin: 5px;
+    position: absolute;
+    top: 400px;
+    left: 7px;
+  }
+  .doctor_btn {
+    position: absolute;
+    left: 35%;
+    top: 300px;
+    margin: 200px 20px 20px 20px;
+    width: 220px;
+  }
+
 
   /* forget password */
   .find_btn {
@@ -1019,11 +1057,11 @@ option {
     top: 200px;
     border: 1px solid #000000;
   }
-  .otp-input-div{
+
+  .otp-input-div {
     position: absolute;
     left: 40%;
   }
-
 
   .otp_item::-webkit-inner-spin-button,
   .otp_item::-webkit-outer-spin-button {
@@ -1115,6 +1153,7 @@ option {
   .payment-radio input[type='radio'] {
     display: inline-block;
   }
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -1147,11 +1186,13 @@ option {
   .dropdown:hover .dropbtn {
     background-color: #123356;
   }
-  .container-myprofile{
+
+  .container-myprofile {
     position: relative;
-    left:25%;
+    left: 25%;
     top: 10px;
   }
+
   .btn_q {
     width: 210px;
     height: 50px;
@@ -1164,10 +1205,11 @@ option {
     font-family: Montserrat, sans-serif;
     font-size: 1.5rem;
   }
+
   .queuetable {
     width: 70%;
     position: absolute;
-    left:25%;
+    left: 25%;
     margin-top: 100px;
     border-collapse: collapse;
     border: 1px solid #69899F;

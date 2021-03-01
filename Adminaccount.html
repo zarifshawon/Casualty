@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Casualty</title>
-  <link rel="shortcut icon" type="image/jpg" href="image\c.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="image\c.png" />
 
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -58,24 +58,23 @@
 
       <div class="container_doctor">
         <!-- <div style="label_tag:  pre"> -->
-        <label for="hospitalname" class="container_label_doctor ">Hospital Name*</label>
-        <input type="text" required class="container_input_doctor ">
+        <label for="hospitalname" class="container_label_doctor ">Hospital Name</label>
+        <input type="text" required class="container_input_doctor " id="hospitalname">
 
-        <label for="Doctorname" class="container_label_doctor ">Admin Name*</label>
-        <input type="text" required class="container_input_doctor "><br>
+        <label for="Adminname" class="container_label_doctor ">Admin Name</label>
+        <input type="text" required class="container_input_doctor " id="Adminname"><br>
 
-        <label for="address" class="container_label_doctor">Address*</label>
+        <label for="A-address" class="container_label_doctor">Address</label>
+        <input type="text" required class="container_input_doctor" id="A-address">
+
+        <label for="Admin-email" class="container_label_doctor">Email</label>
+        <input type="email" required class="container_input_doctor" id="Admin-email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"><br>
+
+        <label for="Ad-phone" class="container_label_doctor">Phone</label>
+        <input type="text" required class="container_input_doctor" id="Ad-phone">
+
+        <label for="hospitalID" class="container_label_doctor">Hospital ID</label>
         <input type="text" required class="container_input_doctor">
-
-        <label for="email" class="container_label_doctor">Email*</label>
-        <input type="email" required class="container_input_doctor" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
-[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/"><br>
-
-        <label for="phone" class="container_label_doctor">Phone*</label>
-        <input type="text" required class="container_input_doctor">
-
-        <label for="hospitalID" class="container_label_doctor">Hospital ID*</label>
-        <input type="text" required class="container_input_doctor"><br>
 
         <label for="city" class="container_label_doctor">City</label>
         <input type="text" required class="container_input_doctor">
@@ -83,9 +82,7 @@
         <label for="Zipcode" class="container_label_doctor">Zipcode</label>
         <input type="text" required class="container_input_doctor">
 
-        <br><br>
-
-        <label for="bloodgroup" class="container_label_doctor">Bloodgroup*</label>
+        <label for="bloodgroup" class="container_label_doctor">Bloodgroup</label>
         <input type="text" required class="container_input_doctor">
 
         <label for="Gender" class="container_label_doctor">Gender</label>
@@ -95,14 +92,14 @@
           <option value="Female">Female</option>
           <option value="Other">Other</option>
         </select>
-        <br><br>
+
 
         <label for="psw" class="container_label_doctor">Password</label>
         <input type="password" required class="container_input_doctor">
 
         <label for="psw" class="container_label_doctor">Confirm Password</label>
-        <input type="password" required class="container_input_doctor"><br>
-        <div class="terms_condition">
+        <input type="password" required class="container_input_doctor">
+        <div class="Admin-terms_condition">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
