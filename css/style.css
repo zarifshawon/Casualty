@@ -302,6 +302,7 @@ option {
   position: absolute;
   top: 500px;
 }
+
 .otp_item {
   height: 45px;
   width: 45px;
@@ -942,8 +943,6 @@ option {
     font-weight: bold;
     letter-spacing: .5rem;
     cursor: pointer;
-    position: absolute;
-    text-align: center;
   }
 
   .button {
@@ -969,10 +968,14 @@ option {
 
   /* craete account */
   .container {
-    position: absolute;
+    /* position: absolute;
     left: 20%;
-    top: 200px;
-    margin: 0px auto;
+    top: 200px; */
+    left: 50%;
+    margin-left: -465px;
+    top: 50%;
+    /* margin-top: 5px; */
+    /* margin: auto 10%; */
     text-align: left;
     font-family: 'Montserrat', sans-serif;
   }
@@ -1022,8 +1025,8 @@ option {
     border-radius: 10px;
     width: 20%;
   }
-  .Admin-terms_condition{
 
+  .Admin-terms_condition {
     color: #FFFFFF;
     text-align: left;
     margin: 5px;
@@ -1031,6 +1034,7 @@ option {
     top: 400px;
     left: 7px;
   }
+
   .doctor_btn {
     position: absolute;
     left: 35%;
@@ -1038,7 +1042,6 @@ option {
     margin: 200px 20px 20px 20px;
     width: 220px;
   }
-
 
   /* forget password */
   .find_btn {
