@@ -67,7 +67,7 @@ option {
   padding: 20px 20px;
   position: absolute;
   bottom: 20px;
-  width: 85%;
+  width: 80%;
 }
 
 /* body section or dashboard */
@@ -1274,5 +1274,8 @@ option {
   .payment-btn{
     left: 50%;
     margin-left: -75px;
+  }
+  .logo-homepage{
+    width: 100%;
   }
 }
