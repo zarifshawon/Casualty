@@ -1246,4 +1246,30 @@ option {
     left: 140px;
     top: 35px;
   }
+  .home_menu {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .card-title {
+    color: #F1583A;
+    margin: 0 auto;
+  }
+  /* payment */
+  .checkout-panel{
+    position: relative;
+  }
+  .panel-body{
+    position: absolute;
+    left: 50%;
+
+
+
+  }
+  .payment-form{
+    width: 90%;
+  }
+  .payment-btn{
+    left: 50%;
+    margin-left: -75px;
+  }
 }
