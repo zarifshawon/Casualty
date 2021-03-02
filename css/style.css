@@ -1111,6 +1111,7 @@ option {
     display: flex;
     margin-bottom: 60px;
     justify-content: space-between;
+    width: 100%;
   }
 
   .method {
@@ -1264,9 +1265,11 @@ option {
 
 
 
+
   }
   .payment-form{
     width: 90%;
+    text-align: justify;
   }
   .payment-btn{
     left: 50%;
