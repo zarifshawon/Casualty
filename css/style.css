@@ -431,11 +431,6 @@ option {
 .profile_name {
   background-color: #123356;
   color: white;
-  width: 100px;
-  position: absolute;
-  left: 130px;
-  top: 15px;
-  /* padding:8px; */
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -968,14 +963,9 @@ option {
 
   /* craete account */
   .container {
-    /* position: absolute;
-    left: 20%;
-    top: 200px; */
     left: 50%;
-    margin-left: -465px;
+    margin-left: -400px;
     top: 50%;
-    /* margin-top: 5px; */
-    /* margin: auto 10%; */
     text-align: left;
     font-family: 'Montserrat', sans-serif;
   }
@@ -1024,6 +1014,7 @@ option {
   .container_input_doctor {
     border-radius: 10px;
     width: 20%;
+    height: 41px;
   }
 
   .Admin-terms_condition {
@@ -1231,5 +1222,28 @@ option {
     padding: 15px;
     width: 180px;
     height: 500px;
+  }
+
+  /* home page style */
+  .profile-container {
+    position: relative;
+    margin-left: 80px;
+    width: 320px;
+  }
+
+  .notification {
+    position: absolute;
+  }
+
+  .pro_pic {
+    border-radius: 100%;
+    position: absolute;
+    left: 100px;
+  }
+
+  .username {
+    position: absolute;
+    left: 140px;
+    top: 35px;
   }
 }
