@@ -574,7 +574,7 @@ option {
 
 .find_btn1 {
   position: absolute;
-  left: 41%;
+  left: 40%;
   top: 48px;
 }
 
@@ -914,7 +914,7 @@ option {
   /* header part */
   #navigation {
     background-color: #123356;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     height: 150px;
   }
@@ -922,6 +922,17 @@ option {
   #dashboard {
     background-color: #2D5173;
     height: 780px;
+
+  }
+  .welcome-block, .forgetpass-block{
+    text-align: justify;
+  }
+  .forgetpass-block{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left:-48%;
+    top:5%;
   }
 
   .logo {
@@ -931,6 +942,7 @@ option {
   }
 
   .title_name {
+    width: 100%;
     padding-top: 20px;
     color: #F1583A;
     font-size: 5rem;
@@ -1066,8 +1078,8 @@ option {
   .otp_paragraph {
     margin: 0;
     position: absolute;
-    left: 40%;
-    top: 300px;
+    left: 40.5%;
+    top: 150px;
     font-family: sans-serif;
     font-size: 1.5rem;
     color: #FFFFFF;
@@ -1077,8 +1089,8 @@ option {
     margin: 0;
     text-align: center;
     position: absolute;
-    left: 40%;
-    top: 425px;
+    left: 42.5%;
+    top: 260px;
     font-family: sans-serif;
     font-size: 1rem;
     color: #FFFFFF;
@@ -1086,7 +1098,7 @@ option {
 
   .otp_btn {
     position: absolute;
-    top: 275px;
+    top: 100px;
     left: 40%;
     margin: 200px 20px 20px 20px;
     width: 220px;
@@ -1095,7 +1107,7 @@ option {
   /* new password */
   .find_btn1 {
     position: absolute;
-    left: 41%;
+    left: 40.5%;
     top: 470px;
   }
 
@@ -1278,4 +1290,26 @@ option {
   .logo-homepage{
     width: 100%;
   }
+  /* Otp Generator */
+  .otp_container_outer{
+    text-align: justify;
+    width: 100%;
+    position: relative;
+  }
+  .otp_container{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -48%;
+
+  }
+  /* New Password */
+  .newpass-block{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -48%;
+    top: 2%;
+  }
+
 }
