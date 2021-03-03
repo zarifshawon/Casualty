@@ -520,12 +520,13 @@ option {
   position: absolute;
 }
 
+
 .emergency {
   position: absolute;
   left: 200px;
   top: 30px;
   padding: 5%;
-  margin: 3%;
+  margin: 5%;
 }
 
 .daycare {
@@ -1260,8 +1261,14 @@ option {
     top: 35px;
   }
   .home_menu {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
+  }
+  .home-inner{
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top:-700px;
   }
   .card-title {
     color: #F1583A;
