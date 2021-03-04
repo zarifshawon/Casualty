@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Casualty</title>
-  <link rel="shortcut icon" type="image/jpg" href="image\c.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="image\c.png" />
 
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -64,30 +64,32 @@
   <!-- main body of the page -->
   <section id="dashboard">
 
-    <div class="container">
-           <div class="progress-container">
-               <div class="progress" id="progress"> </div>
-               <div class="circle active">1</div>
-               <div class="circle">2</div>
-               <div class="circle">3</div>
-               <div class="circle">4</div>
-               <div class="circle">5</div>
-               <!-- <div class="circle">6</div>
+    <div class="container-progress">
+      <div class="progress-container">
+        <div class="progress" id="progress"> </div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        <div class="circle">5</div>
+        <!-- <div class="circle">6</div>
                <div class="circle">7</div>
                <div class="circle">8</div>
                <div class="circle">9</div> -->
 
-           </div>
-
-           <button class="btn" id="prev" disabled>Prev</button>
-           <button class="btn" id="next">Next</button>
-
-
-       </div>
+      </div>
 
 
 
-       <script src="javascript\script.js"></script>
+      <!-- <button class="btn" id="prev" disabled>Prev</button>
+      <button class="btn" id="next">Next</button> -->
+
+
+    </div>
+
+
+
+
     <form class="signup-form" action="/register" method="post">
 
       <!-- form body -->
@@ -149,7 +151,7 @@
 
         <!-- form footer -->
         <div class="form-footer">
-            <button type="button" class="btn_m">Next</button>
+          <button type="button" class="btn btn-outline-dark btn_m" id="next" onclick="update()">Next</button>
         </div>
 
     </form>
@@ -161,7 +163,8 @@
   <section id="footer">
 
   </section>
-  <script src="C:\Users\Windows\Desktop\Casualty\javascript\index.js" charset="utf-8"></script>
+
+  <script src="javascript\script.js"></script>
 </body>
 
 </html>
