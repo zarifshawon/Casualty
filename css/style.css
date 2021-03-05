@@ -477,9 +477,6 @@ option {
 
 .form-body {
   width: 100%;
-  position: absolute;
-  left: 50%;
-  margin-left: -40%;
   top: 50px;
   padding: 10px 40px;
   color: #666;
@@ -1325,25 +1322,26 @@ option {
 
   /* progress bar */
   .container-progress {
-    position: absolute;
-    left: 50%;
+    /* position: absolute;
+    left: 50%; */
+    width: 50%;
     height:5%;
     top: 10px;
   }
 
   .progress-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content:space-around;
     position: absolute;
-    left: 50%;
-    margin-left: -24%;
-    top: 100%;
-    max-width: 100%;
-    width: 350px;
+    left: 25%;
+    top: 25px;
+    width:50%;
   }
 
   .progress {
     background-color: var(--line-border-fill);
+
     position: absolute;
     top: 50%;
     left: 0;
@@ -1414,23 +1412,26 @@ option {
 
   }
   .container-ticket-inner{
-    position: absolute;
-    left: 50%;
+
+    /* position: absolute;
+    left: 50%; */
 
   }
 
   .signup-form {
     font-family: 'Ubuntu', sans-serif;
-    width: 750px;
-    height: 700px;
+    width: 50%;
+    height: 100%;
     border-radius: 10px;
+    position: absolute;
+    left: 25%;
+    top: 100px;
   }
 
   .form-body {
     width: 100%;
-    position: absolute;
-    left: 50%;
-    margin-left: -50%;
+
+
     top: 50px;
     padding: 10px 40px;
     color: #666;
