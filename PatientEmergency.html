@@ -38,20 +38,11 @@
       </div>
       <div class="col col-4 right_side">
         <div class="select_user">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="32" viewBox="0 0 37 32" class="user_svg">
-            <defs>
-              <clipPath id="clip-path">
-                <rect width="37" height="32" fill="none" />
-              </clipPath>
-            </defs>
-            <g id="User" clip-path="url(#clip-path)">
-              <path id="Union_1" data-name="Union 1" d="M0,32V28c0-4.4,8.325-8,18.5-8S37,23.6,37,28v4ZM9.249,8c0-4.419,4.142-8,9.251-8s9.249,3.582,9.249,8-4.142,8-9.249,8S9.249,12.418,9.249,8Z" fill="#fff" />
-            </g>
-          </svg>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle dropdown_1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Log in
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color:#123356;">
               <a class="dropdown-item" href="signupAdmin.html">Admin</a>
               <a class="dropdown-item" href="signupUser.html">User</a>
               <a class="dropdown-item" href="signupDoctor.html">Doctor</a>
@@ -63,100 +54,101 @@
   </section>
   <!-- main body of the page -->
   <section id="dashboard">
-
-    <div class="container-progress">
-      <div class="progress-container">
-        <div class="progress" id="progress"> </div>
-        <div class="circle active">1</div>
-        <div class="circle">2</div>
-        <div class="circle">3</div>
-        <div class="circle">4</div>
-        <div class="circle">5</div>
-        <!-- <div class="circle">6</div>
+    <div class="container-ticket">
+      <div class="container-ticket-inner">
+        <div class="container-progress">
+          <div class="progress-container">
+            <div class="progress" id="progress"> </div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+            <div class="circle">5</div>
+            <!-- <div class="circle">6</div>
                <div class="circle">7</div>
                <div class="circle">8</div>
                <div class="circle">9</div> -->
 
-      </div>
+          </div>
 
 
 
-      <!-- <button class="btn" id="prev" disabled>Prev</button>
+          <!-- <button class="btn" id="prev" disabled>Prev</button>
       <button class="btn" id="next">Next</button> -->
 
 
-    </div>
 
 
 
 
-    <form class="signup-form" action="/register" method="post">
 
-      <!-- form body -->
-      <div class="form-body">
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="firstname" class="label-title">First name *</label>
-            <input type="text" id="firstname" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="lastname" class="label-title">Last name</label>
-            <input type="text" id="lastname" class="form-input" />
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="phone" class="label-title">Primary Phone Number*</label>
-            <input type="text" id="firstname" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="email" class="label-title">Email*</label>
-            <input type="text" id="email" class="form-input" />
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group left">
-            <label for="uid" class="label-title">UID*</label>
-            <input type="text" id="uid" class="form-input" />
-          </div>
-          <div class="form-group right">
-            <label for="dob" class="label-title">Date of Birth*</label>
-            <input type="text" id="dob" class="form-input" />
-          </div>
-          <div class="form-group">
+        <form class="signup-form" action="/register" method="post">
 
-            <label class="label-title">Gender:</label>
-            <div class="input-group">
-              <label for="male">
-                <input type="radio" name="gender" value="male" id="male"> Male</label>
-              <label for="female">
-                <input type="radio" name="gender" value="female" id="female"> Female</label>
+          <!-- form body -->
+          <div class="form-body">
+            <div class="horizontal-group">
+              <div class="form-group left">
+                <label for="firstname" class="label-title">First name *</label>
+                <input type="text" id="firstname" class="form-input" required />
+              </div>
+              <div class="form-group right">
+                <label for="lastname" class="label-title">Last name</label>
+                <input type="text" id="lastname" class="form-input" required />
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group">
-            <label for="searchdoctor" class="label-title">Duty Doctor</label>
-            <input type="text" id="dutydoctor" class="form-input" />
-          </div>
-        </div>
-        <div class="horizontal-group">
-          <div class="form-group">
-            <label for="problem" class="label-title">Problem Statement</label>
-            <input type="text" id="problem" class="form-input" />
-          </div>
+            <div class="horizontal-group">
+              <div class="form-group left">
+                <label for="phone" class="label-title">Primary Phone Number*</label>
+                <input type="number" id="firstname" class="form-input" required />
+              </div>
+              <div class="form-group right">
+                <label for="email" class="label-title">Email*</label>
+                <input type="email" id="email" class="form-input" required />
+              </div>
+            </div>
+            <div class="horizontal-group">
+              <div class="form-group left">
+                <label for="uid" class="label-title">UID*</label>
+                <input type="text" id="uid" class="form-input" required />
+              </div>
+              <div class="form-group right">
+                <label for="dob" class="label-title">Date of Birth*</label>
+                <input type="date" id="dob" class="form-input" required />
+              </div>
+              <div class="form-group">
 
-        </div>
+                <label class="label-title">Gender:</label>
+                <div class="input-group">
+                  <label for="male">
+                    <input type="radio" name="gender" value="male" id="male"> Male</label>
+                  <label for="female">
+                    <input type="radio" name="gender" value="female" id="female"> Female</label>
+                </div>
+              </div>
+            </div>
+            <div class="horizontal-group">
+              <div class="form-group">
+                <label for="dutydoctor" class="label-title">Duty Doctor</label>
+                <input type="text" id="dutydoctor" class="form-input" required />
+              </div>
+            </div>
+            <div class="horizontal-group">
+              <div class="form-group">
+                <label for="problem" class="label-title">Problem Statement</label>
+                <input type="text" id="problem" class="form-input" required />
+              </div>
 
+            </div>
 
-        <!-- form footer -->
-        <div class="form-footer">
-          <button type="button" class="btn btn-outline-dark btn_m" id="next" onclick="update()">Next</button>
-        </div>
+            <button type="submit" class="btn btn-outline-dark btn_m" id="next" onclick="update()">Next</button>
+            <!-- form footer -->
+            <div class="form-footer">
 
-    </form>
+            </div>
 
-
+        </form>
+      </div>
+    </div>
 
   </section>
   <!-- footer -->

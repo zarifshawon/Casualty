@@ -194,9 +194,8 @@ option {
   width: 210px;
   height: 50px;
   position: absolute;
-  top: 700px;
-  left: 80%;
-  margin: 2% 17%;
+  left: 50%;
+  margin-left: -18%;
   background-color: #eaf1f4;
   border-radius: 20px;
   font-family: Montserrat, sans-serif;
@@ -473,11 +472,15 @@ option {
   font-family: 'Ubuntu', sans-serif;
   width: 750px;
   height: 700px;
-  margin: 90px auto;
   border-radius: 10px;
 }
 
 .form-body {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -40%;
+  top: 50px;
   padding: 10px 40px;
   color: #666;
 }
@@ -498,7 +501,7 @@ option {
   height: 34px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #FFFFFF;
+  color:black;
   text-align: left;
   border: 1px solid #d6d6d6;
   border-radius: 4px;
@@ -519,7 +522,6 @@ option {
 .home_menu {
   position: absolute;
 }
-
 
 .emergency {
   position: absolute;
@@ -778,7 +780,7 @@ option {
 
 .circle.active {
   /* border-color: var(--line-border-fill); */
-  border-color:#F1583A;
+  border-color: #F1583A;
 }
 
 .btn {
@@ -789,7 +791,7 @@ option {
   cursor: pointer;
   font-family: inherit;
   padding: 8px 30px;
-  margin: 5px;
+  /* margin: 5px; */
   font-size: 14px;
 }
 
@@ -835,7 +837,7 @@ option {
 /* Manage Account */
 .choose_item {
   text-align: center;
-  margin: 10px 0 0 300px;
+  /* margin: 10px 0 0 300px; */
 }
 
 .container_createAccount {
@@ -924,17 +926,18 @@ option {
   #dashboard {
     background-color: #2D5173;
     height: 780px;
-
   }
-  .welcome-block, .forgetpass-block{
+
+  .welcome-block, .forgetpass-block {
     text-align: justify;
   }
-  .forgetpass-block{
+
+  .forgetpass-block {
     width: 100%;
     position: absolute;
     left: 50%;
-    margin-left:-48%;
-    top:5%;
+    margin-left: -48%;
+    top: 5%;
   }
 
   .logo {
@@ -1196,12 +1199,6 @@ option {
     background-color: #123356;
   }
 
-  .container-myprofile {
-    position: relative;
-    left: 25%;
-    top: 10px;
-  }
-
   .btn_q {
     width: 210px;
     height: 50px;
@@ -1261,75 +1258,85 @@ option {
     left: 140px;
     top: 35px;
   }
+
   .home_menu {
     position: relative;
     font-family: 'Montserrat', sans-serif;
   }
-  .home-inner{
+
+  .home-inner {
     position: absolute;
     left: 50%;
     margin-left: -35%;
-    top:-700px;
+    top: -700px;
   }
+
   .card-title {
     color: #F1583A;
     margin: 0 auto;
   }
+
   /* payment */
-  .checkout-panel{
+  .checkout-panel {
     position: relative;
   }
-  .panel-body{
+
+  .panel-body {
     position: absolute;
     left: 50%;
-
-
-
-
   }
-  .payment-form{
+
+  .payment-form {
     width: 90%;
     text-align: justify;
   }
-  .payment-btn{
+
+  .payment-btn {
     left: 50%;
     margin-left: -75px;
   }
-  .logo-homepage{
+
+  .logo-homepage {
     width: 100%;
   }
+
   /* Otp Generator */
-  .otp_container_outer{
+  .otp_container_outer {
     text-align: justify;
     width: 100%;
     position: relative;
   }
-  .otp_container{
+
+  .otp_container {
     width: 100%;
     position: absolute;
     left: 50%;
     margin-left: -48%;
-
   }
+
   /* New Password */
-  .newpass-block{
+  .newpass-block {
     width: 100%;
     position: absolute;
     left: 50%;
     margin-left: -48%;
     top: 2%;
   }
+
   /* progress bar */
-  .container-progress{
-    position: relative;
-    height: 2%;
+  .container-progress {
+    position: absolute;
+    left: 50%;
+    height:5%;
+    top: 10px;
   }
+
   .progress-container {
     display: flex;
     justify-content: space-between;
     position: absolute;
     left: 50%;
-    margin-left:-10%;
+    margin-left: -24%;
     top: 100%;
     max-width: 100%;
     width: 350px;
@@ -1359,4 +1366,109 @@ option {
     z-index: -1;
   }
 
+  .home_menu {
+    position: relative;
+  }
+
+  .container-myprofile {
+    position: absolute;
+    left: 30%;
+    margin-left: -20%;
+    top: -700px;
+  }
+
+  .container-manageDoctor {
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    top: -700px;
+    width: 70%;
+  }
+
+  .choose_item {
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+  }
+
+  .container_createAccount {
+    text-align: center;
+    margin: 10px 0 0 100px;
+    display: block;
+  }
+
+  .container_createAccount1 {
+    text-align: center;
+    margin: 10px 0 0 100px;
+    display: none;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+  }
+  .container-ticket{
+    position: relative;
+    left: 7%;
+    margin-left: -5%;
+    width: 90%;
+  }
+  .container-ticket-inner{
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+  }
+
+  .signup-form {
+    font-family: 'Ubuntu', sans-serif;
+    width: 750px;
+    height: 700px;
+    border-radius: 10px;
+  }
+
+  .form-body {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+    top: 50px;
+    padding: 10px 40px;
+    color: #666;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-body .label-title {
+    color: #FFFFFF;
+    font-size: 17px;
+  }
+
+  .form-body .form-input {
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:black;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+  }
+
+  .horizontal-group .left {
+    float: left;
+    width: 49%;
+  }
+
+  .horizontal-group .right {
+    float: right;
+    width: 49%;
+  }
 }

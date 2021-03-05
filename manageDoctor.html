@@ -41,28 +41,32 @@
       <div class="col col-4 middle_side">
         <h1 class="title_name">Casualty</h1>
       </div>
-      <div class="col col-3 right_side">
-        <div class="profile_bar">
-          <a href="#" class="notification">
-            <span class="fa_profile">
-              <i class="far fa-bell "></i>
-              <span class="badge">3</span>
-            </span>
-          </a>
-          <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" alt="profile pic" class="pro_pic">
-          <div class="dropdown">
+      <div class="col col-4 right_side">
+        <div class="profile-container profile_bar">
+          <div class="profileitem notification-bell">
+            <a href="#" class="notification">
+              <span class="fa_profile">
+                <i class="far fa-bell "></i>
+                <span class="badge">3</span>
+              </span>
+            </a>
+          </div>
+
+          <div class="profileitem profile-image">
+            <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" alt="profile pic" class="pro_pic">
+          </div>
+
+          <div class="dropdown username profileitem">
             <button class="dropbtn profile_name">Zarif M.</button>
             <div class="dropdown-content">
-              <a href="myProfile.html">My Profile</a>
-            <a href="manageDoctor.html">Manage Doctor</a>
-              <!-- <a href="#">Settings</a>
-              <a href="#">Terms & Condition</a> -->
-              <a href="signupUser.html">Log Out</a>
+              <a href="myProfile.html" class="profile_content">My Profile</a>
+              <a href="manageDoctor.html" class="profile_content">Manage Doctor</a>
+              <!-- <a href="#">Terms & Condition</a> -->
+              <a href="signupUser.html" class="profile_content">Log Out</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
   <!-- main body of the page -->
@@ -79,206 +83,208 @@
         <img src="image\1x\brand.png" onerror="this.onerror=null; this.src='brand.png'" class="logo_homepage">
       </div>
       <div class="col col-11 home_menu">
-        <div class="choose_item">
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary" onclick="toggleButton()">Create Doctor</button>
-            <button type="button" class="btn btn-secondary" onclick="toggleButton()">Doctor Info</button>
+        <div class="container-manageDoctor">
+          <div class="choose_item">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary" onclick="toggleButton()">Create Doctor</button>
+              <button type="button" class="btn btn-secondary" onclick="toggleButton()">Doctor Info</button>
+            </div>
+          </div>
+          <div class="container_createAccount" id="doctorAcc">
+            <div class="container_header">
+              <h2>Doctor Account Create</h2>
+              <p class="header_pg1">Basic info, like your name and photo, that you use on Casualty services</p>
+            </div>
+            <div class="container_basicInfo">
+              <h3 class="head_basicInfo">Basic Info</h3>
+              <p class="head_pg">Some info may be visible to other people</p>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">PHOTO</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">A Photo helps personalize your Account</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <figure class="HJOYV HJOYVi12 l7Wukc" aria-hidden="true">
+                    <img class="item1-name" src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" srcset="" data-iml="1599.5750000001863" data-atf="true">
+                  </figure>
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Name</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Speciality</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Department</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Hospital Name</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Email</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="email" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Password</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <button type="button" name="button" class="btn btn-outline-info btn-next" style="background-color:#F1583A;margin:10px 10px;">Create</button>
+            </div>
+
+          </div>
+          <div class="container_createAccount1" id="doctorAcc1">
+            <div class="container_header">
+              <h2>Doctor Account Info</h2>
+              <p class="header_pg1">Basic info, like your name and photo, that you use on Casualty services</p>
+            </div>
+            <div class="container_basicInfo">
+              <h3 class="head_basicInfo">Basic Info</h3>
+              <p class="head_pg">Some info may be visible to other people</p>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">PHOTO</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">A Photo helps personalize your Account</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <figure class="HJOYV HJOYVi12 l7Wukc" aria-hidden="true">
+                    <img class="item1-name" src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" srcset="" data-iml="1599.5750000001863" data-atf="true">
+                  </figure>
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Name</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Speciality</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Department</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Hospital Name</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Email</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="email" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Duty/Visiting Time</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="datetime-local" id="date" class="prescription-input date_style" />
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <div class="info-item1 row">
+                <div class="item-inner1 col col-md-4">
+                  <h4 class="item1-name">Password</h4>
+                </div>
+                <div class="item-inner1 col col-md-4">
+                  <input type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="item-inner1 col col-md-4">
+                </div>
+              </div>
+              <div class="hr-line" style="border-top: 1px solid white;"></div>
+              <button type="button" name="button" class="btn btn-outline-info btn-next" style="background-color:#F1583A;margin:10px 10px;">Save</button>
+            </div>
           </div>
         </div>
-        <div class="container_createAccount" id="doctorAcc">
-          <div class="container_header">
-            <h2>Doctor Account Create</h2>
-            <p class="header_pg1">Basic info, like your name and photo, that you use on Casualty services</p>
-          </div>
-          <div class="container_basicInfo">
-            <h3 class="head_basicInfo">Basic Info</h3>
-            <p class="head_pg">Some info may be visible to other people</p>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">PHOTO</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">A Photo helps personalize your Account</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <figure class="HJOYV HJOYVi12 l7Wukc" aria-hidden="true">
-                  <img class="item1-name" src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" srcset="" data-iml="1599.5750000001863" data-atf="true">
-                </figure>
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Name</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Speciality</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Department</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Hospital Name</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Email</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="email" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Password</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <button type="button" name="button" class="btn btn-outline-info btn-next" style="background-color:#F1583A;margin:10px 10px;">Create</button>
-          </div>
-
-        </div>
-        <div class="container_createAccount1" id="doctorAcc1">
-          <div class="container_header">
-            <h2>Doctor Account Info</h2>
-            <p class="header_pg1">Basic info, like your name and photo, that you use on Casualty services</p>
-          </div>
-          <div class="container_basicInfo">
-            <h3 class="head_basicInfo">Basic Info</h3>
-            <p class="head_pg">Some info may be visible to other people</p>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">PHOTO</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">A Photo helps personalize your Account</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <figure class="HJOYV HJOYVi12 l7Wukc" aria-hidden="true">
-                  <img class="item1-name" src="https://lh3.googleusercontent.com/ogw/ADGmqu8ptEqaEa_9QFsImdk0A2Hgovg_W6woD6-vA5vJTg=s32-c-mo" srcset="" data-iml="1599.5750000001863" data-atf="true">
-                </figure>
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Name</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Speciality</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Department</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Hospital Name</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Email</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="email" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Duty/Visiting Time</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="datetime-local" id="date" class="prescription-input date_style" />
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <div class="info-item1 row">
-              <div class="item-inner1 col col-md-4">
-                <h4 class="item1-name">Password</h4>
-              </div>
-              <div class="item-inner1 col col-md-4">
-                <input type="password" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-              </div>
-              <div class="item-inner1 col col-md-4">
-              </div>
-            </div>
-            <div class="hr-line" style="border-top: 1px solid white;"></div>
-            <button type="button" name="button" class="btn btn-outline-info btn-next" style="background-color:#F1583A;margin:10px 10px;">Save</button>
-          </div>
-
 
       </div>
 
