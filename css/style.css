@@ -1411,14 +1411,12 @@ option {
   }
   .container-ticket{
     position: relative;
-    left: 7%;
-    margin-left: -5%;
-    width: 90%;
+
   }
   .container-ticket-inner{
     position: absolute;
     left: 50%;
-    margin-left: -25%;
+
   }
 
   .signup-form {
